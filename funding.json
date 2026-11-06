@@ -1,0 +1,52 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.0.0",
+  "entity": {
+    "type": "individual",
+    "role": "owner",
+    "name": "Abdulahad Irfan Dayatar",
+    "email": "abdulahaddayatar89@gmail.com",
+    "phone": "",
+    "description": "Indie AI product developer based in Kolkata, India. Builds developer tools and creative AI products including MockMirror Instant API Mocking, Super-Env, QuickReel, Adobe Express add-ons, Ovix Voice AI, and AI Portfolio Analyzer. Prior Adobe Fund for Design support and a NEAR Protocol open source bounty.",
+    "webpageUrl": {
+      "url": "https://abdulahaddayatar.com",
+      "wellKnown": ""
+    }
+  },
+  "projects": [{
+    "guid": "mockmirror",
+    "name": "MockMirror",
+    "description": "Instant API Mocking for creating temporary mock API endpoints for testing, prototypes, and demos. Developers create mock routes and fixtures without standing up a real backend. Live product at mockmirror.vercel.app and api.mockmirror.dev. Goal: open-source the core mocking engine and keep a free public tier for Indian and global indie builders.",
+    "webpageUrl": {
+      "url": "https://mockmirror.vercel.app"
+    },
+    "repositoryUrl": {
+      "url": "https://github.com/abdulahaddayater/funding-manifest"
+    },
+    "licenses": ["spdx:MIT"],
+    "tags": ["developer-tools", "api", "testing", "mocking", "web"]
+  }],
+  "funding": {
+    "channels": [{
+      "guid": "bank-inr",
+      "type": "bank",
+      "address": "",
+      "description": "Direct bank transfer in INR. Email abdulahaddayatar89@gmail.com for account details after award."
+    }, {
+      "guid": "ethereum-usdc",
+      "type": "other",
+      "address": "0xa408A303f5C47fFb2B97EDb9d06E28f84dB39d63",
+      "description": "Ethereum address for USDC or ETH if preferred."
+    }],
+    "plans": [{
+      "guid": "foss-united-project",
+      "status": "active",
+      "name": "MockMirror open-source and India FOSS runway",
+      "description": "Six-month plan: open-source MockMirror core, public docs, free tier hosting, and maintainer time so Indian students and indie hackers can mock APIs without paid SaaS. Monthly milestones: month 1 open repo and license; month 2 docs and examples; month 3 free-tier hardening; month 4 community templates; month 5 CI and reliability; month 6 public release blog and maintainer handbook.",
+      "amount": 600000,
+      "currency": "INR",
+      "frequency": "one-time",
+      "channels": ["bank-inr", "ethereum-usdc"]
+    }]
+  }
+}
